@@ -1,4 +1,5 @@
 ActiveAdmin.register Page do
+  permit_params :title, :synopsis, :content
 
   
   # See permitted parameters documentation:
